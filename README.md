@@ -1,6 +1,8 @@
 # streamer-swf
 
-The simple Flash streamer.
+## Overview
+
+A simple Flash streamer for VXG Streaming Server - https://www.videoexpertsgroup.com/cloud-platform/.
 
 ## How to install npm
 

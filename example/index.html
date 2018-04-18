@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Example Web Cam Streaming</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="index.css?v=1">
+		<script type="text/javascript" src="streamer.js?v=1"></script>
+		<script type="text/javascript" src="index.js?v=1"></script>
+
+	</head>
+	<body>
+		<br>
+		<input type="text" id="url" size="50" value="rtmp://54.173.34.172:1937/publish_demo/test_ast"><br><br>
+		<button onclick='adobe_start()'>Activate</button>
+		<button onclick='adobe_stop()'>Deactivate</button>
+		<br/>
+		<h1>Adobe Flash</h1>
+		<div>
+			<object id="streamer_swf" type="application/x-shockwave-flash" data="streamer.swf" width="220px" height="160px" >
+				<param name="movie" value="streamer.swf" />
+				<embed src="dist/streamer.swf">
+				<param name="allowScriptAccess" value="always"/>
+				<param value="allowNetworking" value="all"/>
+				<param name="wmode" value="transparent"/>
+				<param name="menu" value="false" />
+			</object>
+			<div class="audiolevel">
+				A-LVL
+				<div class="audiolevel-value" id="audiolevel_value"></div>
+			</div>
+			<textarea id="streaming-log" readonly></textarea>
+		</div>
+	</body>
+</html>

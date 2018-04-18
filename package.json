@@ -1,0 +1,35 @@
+{
+  "name": "streamer-swf",
+  "description": "StreamerSwf (http://videoexpertsgroup.com)",
+  "version": "1.0.180413",
+  "copyright": "Copyright 2016 VXG, Inc.",
+  "keywords": [
+    "flash",
+    "video",
+    "streamer"
+  ],
+  "homepage": "http://videoexpertsgroup.com",
+  "author": "VXG, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VideoExpertsGroup/streamer-swf"
+  },
+  "devDependencies": {
+    "async": "~0.2.9",
+    "chg": "~0.1.5",
+    "flex-sdk": "4.6.0-0",
+    "grunt": "^0.4.5",
+    "grunt-bumpup": "~0.5.0",
+    "grunt-cli": "~0.1.0",
+    "grunt-connect": "~0.2.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-qunit": "~0.2.1",
+    "grunt-contrib-watch": "~0.1.4",
+    "grunt-npm": "~0.0.2",
+    "grunt-prompt": "~0.1.2",
+    "grunt-shell": "~0.6.1",
+    "grunt-tagrelease": "~0.3.1",
+    "qunitjs": "~1.12.0"
+  },
+  "scripts": {}
+}
